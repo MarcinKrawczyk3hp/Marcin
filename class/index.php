@@ -1,9 +1,8 @@
-<?PHP
-require_once('User.class.php');
+<?php
+require_once('config.php');
+require_once('class/User.class.php');
 
-$user = new User('jkowalski', 'tajnehasło');
-/*$user->register();*/
-
+$user = new User('jkowalski', 'tajneHasło');
 /*
 if($user->register()) {
     echo "Zarejestrowano poprawnie";
@@ -18,6 +17,4 @@ if($user->login()) {
     echo "Błędny login lub hasło";
 }
 
-echo '<pre>';
-var_dump($user);
 ?>
