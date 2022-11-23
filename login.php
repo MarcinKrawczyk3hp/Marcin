@@ -19,4 +19,4 @@ if(isset($_REQUEST['login']) && isset($_REQUEST['password'])) {
     $twig->display('login.html.twig');
 }
 
-?>    
+?>
