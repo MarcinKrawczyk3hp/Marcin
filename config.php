@@ -1,5 +1,6 @@
 <?php
 require_once('vendor/autoload.php');
+require_once('class/User.class.php');
 
 //loader to taki pomocnik ładowania szablonów
 $loader = new Twig\Loader\FilesystemLoader('templates');
