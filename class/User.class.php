@@ -13,7 +13,7 @@ class User {
         $this->firstName = "";
         $this->lastName = "";
         global $db;
-        $this->db = $db;
+        $this->db = &$db;
     }
 
 
