@@ -85,7 +85,6 @@ Route::add('/logout', function() {
                                 ['message' => "Wylogowano poprawnie"]);
 });
 
-Route::run('/Marcin');
 
 Route::add('/profile', function() {
     global $twig;
@@ -111,5 +110,7 @@ Route::add('/profile', function() {
                                 ['message' => "Zapisano zmiany w profilu"]);
     }
 }, "post");
+
+Route::run('/Marcin');
 
 ?>
